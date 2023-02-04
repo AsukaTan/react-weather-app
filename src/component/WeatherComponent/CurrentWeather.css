@@ -1,0 +1,55 @@
+.card {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: azure;
+    box-shadow: 10px -4px 10px rgb(112, 126, 128);
+}
+
+.weather-top{
+    display: flex;
+    justify-content:space-between;
+}
+
+.weather-top-text{
+    width: 150px;
+    display: grid;
+}
+
+.city{
+    font-weight: bold;
+    color:beige;
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 30px;
+
+}
+
+.temperature{
+    color: lightblue;
+    margin: auto;
+    text-shadow: 2px 2px 3px rgb(112, 126, 128);
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 10;
+}
+
+img {
+    size: 70;
+}
+
+.weather-description {
+    font-size: 30px;
+}
+
+.decription-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.decription-label{
+   
+}
+
+
