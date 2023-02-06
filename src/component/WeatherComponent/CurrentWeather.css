@@ -1,55 +1,33 @@
 .card {
+    display: grid;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 300px;
-    margin: 30px auto;
+    width: auto;
+    margin: 30px;
     border-radius: 8px;
     background-color: azure;
     box-shadow: 10px -4px 10px rgb(112, 126, 128);
 }
 
 .weather-top{
-    display: flex;
+    columns: 2 auto;
     justify-content:space-between;
 }
 
-.weather-top-text{
-    width: 150px;
-    display: grid;
-}
-
-.city{
+.weather-top-left{
+    text-align: center;
     font-weight: bold;
-    color:beige;
-    margin: auto;
-    margin-bottom: 0;
-    font-size: 30px;
-
+    text-shadow: 4 -4px 4px rgb(112, 126, 128) ;
+    color:black;
+    
+    justify-content: center;
+    font-size: 40px;
 }
 
-.temperature{
-    color: lightblue;
-    margin: auto;
-    text-shadow: 2px 2px 3px rgb(112, 126, 128);
-    font-size: 30px;
-    font-weight: bold;
-    font-weight: 10;
+.weather-top-right{
+    text-align: center;
 }
 
-img {
-    size: 70;
+img{
+   width: 180px;
+   height: 180px;
 }
-
-.weather-description {
-    font-size: 30px;
-}
-
-.decription-row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.decription-label{
-   
-}
-
-
